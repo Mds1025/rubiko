@@ -1,0 +1,66 @@
+.contact {
+  padding: 4.2rem 0;
+  background-color: $headerColor;
+
+  @media (min-width: $screen-lg) {
+    padding: 4.2rem 15%;
+  }
+}
+
+.form-elem label {
+  font-size: 1.8rem;
+  display: block;
+  margin-top: 2rem;
+}
+
+.form-elem input,
+.form-elem textarea {
+  width: 100%;
+
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: $headerColor;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.form-elem textarea {
+  height: 20vh;
+}
+
+.contact-btn {
+  display: block;
+  margin-top: 3rem;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  width: max-content;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 1rem 2.4rem;
+}
+
+.form-elem textarea {
+  resize: none;
+}
+
+.form-elem {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* FOOTER */
+.footer {
+  background-color: $headerColor;
+  text-align: center;
+}

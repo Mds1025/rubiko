@@ -1,0 +1,39 @@
+/* HEADER */
+.header {
+  display: flex;
+  background-color: $headerColor;
+  justify-content: center;
+  position: relative;
+}
+
+.logo {
+  height: 15rem;
+  margin-bottom: -1rem;
+  margin-top: -2rem;
+
+  .logo-container {
+    overflow: hidden;
+  }
+
+  @media (min-width: $screen-md) {
+    height: 25rem;
+  }
+
+  @media (min-width: $screen-xl) {
+    height: 35rem;
+  }
+}
+
+.menu-button {
+  position: absolute;
+  left: 5%;
+  top: 15%;
+  border: 3px solid $primary;
+  border-radius: 6px;
+  padding: 0.5rem;
+
+  ion-icon {
+    font-size: 3rem;
+    color: $primary;
+  }
+}

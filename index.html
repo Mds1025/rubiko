@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rubiko</title>
+  </head>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+  <script defer src="/assets/js/script.js"></script>
+  <body>
+    <header class="header">
+      <img class="logo" src="assets/img/logo_transparent.png" />
+    </header>
+    <section class="hero">
+      <div class="hero-text-container">
+        <h1 class="heading-primary heading-primary-resizable">
+          Impara a risolvere il cubo di Rubik dai migliori
+        </h1>
+      </div>
+      <img class="hero-img" src="assets/img/hero.jpg" />
+      <p class="hero-description">
+        Il miglior corso online per imparare a risolvere il cubo di Rubik con
+        metodo CFOP in soli 3 mesi! Tutor, videolezioni e materiale per
+        esercitarti.
+      </p>
+      <a class="btn price--btn">Scopri i prezzi</a>
+    </section>
+    <section class="featuredin">
+      <p class="featuredin-text">Siamo stati scelti da</p>
+      <div class="featuredin-image-container">
+        <img class="logo" src="assets/img/featured/pngwing.com.png" />
+        <img
+          class="logo"
+          src="assets/img/featured/United_States_University_-_Logo_2018.png"
+        />
+      </div>
+    </section>
+    <section class="features">
+      <h2 class="heading-secondary offer">Cosa offriamo</h2>
+      <div class="features-container">
+        <div>
+          <ion-icon name="videocam-outline" class="feature-icon"></ion-icon>
+          <p class="feature-text">
+            160 ore di video che ti insegneranno tutti gli algoritmi necessari
+          </p>
+        </div>
+        <div>
+          <ion-icon name="school-outline" class="feature-icon"></ion-icon>
+          <p class="feature-text">Tutorial specifici per le singole fasi</p>
+        </div>
+        <div>
+          <ion-icon name="people-outline" class="feature-icon"></ion-icon>
+          <p class="feature-text">
+            Sessioni online con altri studenti e tutor per scambiarsi idee
+          </p>
+        </div>
+        <div>
+          <ion-icon name="book-outline" class="feature-icon"></ion-icon>
+          <p class="feature-text">Materiali per lo studio teorico</p>
+        </div>
+      </div>
+    </section>
+    <section class="prices">
+      <p class="prices-text">Scegli il piano che fa per te</p>
+      <div class="prices-card-container">
+        <div class="prices-card">
+          <p class="prices-card-title">Basic</p>
+          <ul class="prices-card-list">
+            <li>
+              <span
+                ><ion-icon
+                  name="checkmark-circle-outline"
+                  class="green"
+                ></ion-icon></span
+              ><span> Accesso H24 alle lezioni</span>
+            </li>
+            <li>
+              <span
+                ><ion-icon
+                  name="checkmark-circle-outline"
+                  class="green"
+                ></ion-icon></span
+              ><span> 3 sessioni al mese con i tutor</span>
+            </li>
+            <li>
+              <span
+                ><ion-icon
+                  name="checkmark-circle-outline"
+                  class="green"
+                ></ion-icon></span
+              ><span> Quiz finale</span>
+            </li>
+            <li>
+              <span
+                ><ion-icon
+                  name="close-circle-outline"
+                  class="red"
+                ></ion-icon></span
+              ><span> Download dei materiali</span>
+            </li>
+            <li>
+              <span
+                ><ion-icon
+                  name="close-circle-outline"
+                  class="red"
+                ></ion-icon></span
+              ><span> Attestato finale</span>
+            </li>
+          </ul>
+          <div>
+            <p class="prices-price">23 &euro; / mese</p>
+            <a class="btn prices-order-btn">Ordina subito</a>
+          </div>
+        </div>
+
+        <div class="prices-card top-plan">
+          <p class="prices-card-title">
+            Pro<span class="best-seller-text">(Best seller)</span>
+          </p>
+          <ul class="prices-card-list">
+            <li>
+              <span
+                ><ion-icon
+                  name="checkmark-circle-outline"
+                  class="green"
+                ></ion-icon></span
+              ><span> Tutti i privilegi del piano Basic</span>
+            </li>
+            <li>
+              <span
+                ><ion-icon
+                  name="checkmark-circle-outline"
+                  class="green"
+                ></ion-icon></span
+              ><span> Download dei materiali</span>
+            </li>
+            <li>
+              <span
+                ><ion-icon
+                  name="checkmark-circle-outline"
+                  class="green"
+                ></ion-icon></span
+              ><span> Attestato finale</span>
+            </li>
+          </ul>
+          <div>
+            <p class="prices-price">45 &euro; / mese</p>
+            <a class="btn prices-order-btn">Ordina subito</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <form class="form">
+        <div class="form-elem">
+          <label>Email</label>
+          <input name="email" type="email" placeholder="tua@mail.it" />
+        </div>
+        <div class="form-elem">
+          <label>Titolo della domanda</label>
+          <input
+            name="request"
+            type="text"
+            placeholder="Scrivi qui la tua richiesta"
+          />
+        </div>
+        <div class="form-elem">
+          <label>Domanda</label>
+          <textarea placeholder="Scrivi qui la tua domanda"></textarea>
+        </div>
+        <a class="btn contact-btn">Invia la richiesta</a>
+      </form>
+    </section>
+    <footer class="footer">&copy; Rubiko 2022</footer>
+    <div id="goUp" class="go-up hidden">
+      <ion-icon name="arrow-up-circle-outline"></ion-icon>
+    </div>
+  </body>
+</html>
